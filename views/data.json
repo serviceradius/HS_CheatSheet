@@ -1,0 +1,16 @@
+{
+   "images": [
+      {
+         "name": "Email",
+         "imgPath": "public/images/email.jpg"
+      },
+      {
+         "name": "Facebook",
+         "imgPath": "publc/images/facebook.jpg"
+      },
+      {
+         "name": "LinkedIn",
+         "imgPath": "public/images/linkedin.jpg"
+      }
+  ]
+}
