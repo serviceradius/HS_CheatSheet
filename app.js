@@ -11,8 +11,7 @@ dotenv.load();
 
 //Route files to load
 var index = require('./routes/index');
-var scripts = require('./routes/scripts');
-var training = require('./routes/training');
+var providers = require('./routes/providers');
 
 //Configures the Template engine
 app.engine('handlebars', handlebars());
@@ -23,8 +22,7 @@ app.use(express.bodyParser());
 
 //Routes
 app.get('/', index.view);
-app.get('/training', training.view);
-app.get('/scripts', scripts.view);
+app.get('/providers', providers.view);
 
 //set environment ports and start application
 app.set('port', process.env.PORT || 3000);

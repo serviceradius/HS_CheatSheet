@@ -1,3 +1,6 @@
+body{
+    font-size: 13px;
+}
 .navbar-static-top {
   margin-bottom:20px;
 }
@@ -59,13 +62,23 @@ footer {
 .navbar-inverse{
     background-color: #272930;
 }
+
+.nav-stacked>li:active{
+    background-color:#fff;
+    color: #000;
+}
 .nav>li{
     background-color:#272930;
     border-top: 1px solid #32353e;
     border-bottom: 1px solid #1a1c20;
 }
+.nav>li>a:active{
+    background-color:#fff;
+    color:#000;
+}
 .nav>li>a:hover{
-    background-color:#eee;
+    background-color:#222;
+    color:#fff;
 }
 .title{
    margin-top:20px;
@@ -96,7 +109,7 @@ h3:before{
 }
 .affix{
   background-color:#272930;
-  padding-bottom:100px;
+  padding-bottom:400px;
 }
 .h3{
   color:blue;
@@ -125,4 +138,11 @@ h4:before{
 }
 .nav-stacked>li+li{
     margin-top:0px;
+}
+.rep-id{
+    padding:8px;
+    color: #fff;
+}
+.scroll{
+    overflow:scroll;
 }
