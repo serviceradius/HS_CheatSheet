@@ -67,26 +67,34 @@ footer {
     color: #9bc9f6;
 }
 
-.nav-stacked>li:active{
+.nav-stacked > li:active{
     background-color:#fff;
     color: #000;
 }
-.nav > li{
-    background-color:#272930;
+.nav > li {
     border-top: 1px solid #32353e;
     border-bottom: 1px solid #1a1c20;
 }
-.nav >li > a{
+.nav-tabs > li{
+    border-top: none;
+    border-bottom: none;
+}
+.nav > li > a{
     text-decoration:none; 
     background-color:#272930;
 }
-.nav >li > a:hover{
+.nav > li > a:hover{
     text-decoration:none; 
     background-color:#272930;
 }
 .nav > li >a:active{
     background-color:#272930;
     color:#000;
+}
+
+.nav>li>a:focus{
+    color: black;
+    background-color: #ddd;
 }
 .nav-tabs >li >a:hover{
     background-color: #272930;
@@ -95,8 +103,12 @@ footer {
    margin-left: 15px;
    color:#fff;
 }
-
-
+.nav-tabs>li.hover>a{
+  color: #337ab7;
+  cursor: default;
+  background-color: #eee;
+  border-bottom-color: transparent;
+}
 li > a:visited{
     color: #337ab7;
     text-decoration: none;
@@ -125,6 +137,7 @@ li > a:active{
     color: #9bc9f6;
     text-decoration: none;
     background-color: #272930;
+    border-top: 2px green;
 }
 
 .sub{
@@ -226,4 +239,16 @@ h4:before{
 .provider{
     visibility: hidden;
     padding-top: 30px;
+}
+.nav-tabs > li > a{
+    color: black;
+    background-color: #aaa;
+    border-top: none;
+    border-bottom: none;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+    color: white;
+    background-color: #272930;
+    border-top: 1px;
+    border-bottom: 1px;
 }
