@@ -7,7 +7,7 @@ i {
 }
 
 .nav > li > a {
-  color:#787878;
+  color: #9bc9f6;
 }
   
 footer {
@@ -54,9 +54,25 @@ footer {
 .navbar-nav{
     margin-top:15px; !important
     margin-right:15px; !important
+    
+}
+.navbar-inverse{
+    background-color: #272930;
+}
+.nav>li{
+    background-color:#272930;
+    border-top: 1px solid #32353e;
+    border-bottom: 1px solid #1a1c20;
+}
+.nav>li>a:hover{
+    background-color:#eee;
 }
 .span3{
-    margin-top:80px;   
+    color:#272930;
+    margin-top:68px;   
+}
+.navbar-inverse{
+    background-color: 
 }
 .scrollit{ 
     margin-top:20px;
@@ -67,7 +83,6 @@ h3:before{
   margin-top: -300px; 
   height: 300px; 
   visibility: hidden;
-    color:blue;
 }
 .h3{
   color:blue;
@@ -92,4 +107,10 @@ h4:before{
 }
 .important{
     color:red;
+}
+.collapse.in{
+    background-color:#000;
+}
+.nav-stacked>li+li{
+    margin-top:0px;
 }
