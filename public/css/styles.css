@@ -262,3 +262,57 @@ tr:nth-child(even){
 tr:nth-child(odd){
     background-color:#aaa;
 }
+.bh_ico{
+    width: 10px;
+    height: 10px;
+    background-color: orange;
+    margin-right: 10px;.
+    margin-top: 2px;
+    float: left;
+    margin-top: 2px;
+}
+.ch_ico{
+    width: 10px;
+    height: 10px;
+    background-color: CadetBlue;
+    margin-right: 10px;.
+    margin-top: 2px;
+    float: left;
+    margin-top: 2px;
+}
+.cox_ico{
+    width: 10px;
+    height: 10px;
+    background-color: DarkBlue;
+    margin-right: 10px;.
+    margin-top: 2px;
+    float: left;
+    margin-top: 2px;
+}
+.dtv_ico{
+    width: 10px;
+    height: 10px;
+    background-color: silver;
+    margin-right: 10px;.
+    margin-top: 2px;
+    float: left;
+    margin-top: 2px;
+}
+.mc_ico{
+    width: 10px;
+    height: 10px;
+    background-color: #B22222;
+    margin-right: 10px;.
+    margin-top: 2px;
+    float: left;
+    margin-top: 2px;
+}
+.twc_ico{
+    width: 10px;
+    height: 10px;
+    background-color: purple;
+    margin-right: 10px;.
+    margin-top: 2px;
+    float: left;
+    margin-top: 2px;
+}
