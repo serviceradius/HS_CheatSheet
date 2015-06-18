@@ -62,7 +62,7 @@
             <ul class="nav nav-stacked">
                     <h3 class="title nostyle2"  id="starthere"> Script Shortcuts</h3>
 							<div class="one-third">
-                                <strong class="sub">Start Here</strong>
+                                <strong class="sub"></a>Start Here</strong>
                                 <ul>
                                      <li>
                                         <a href="#legend" data-toggle="modal">Legend</a>
@@ -72,13 +72,13 @@
                                     </li>
                                    
                                 </ul>
-								<strong class="sub">Sales/New Service</strong>
+								<a href="#salesnewservice"><strong class="sub">Sales / New Service</strong></a>
 								<ul>
 									<li>
 										<a href="#collect-info" style="padding-left: 0px;">Collect Information & Serviceability</a>
 									</li>
                                 </ul>
-                                <strong class="sub">Close and Convert</strong>
+                                <a href="#closeandconvert"><strong class="sub">Close and Convert</strong></a>
                                 <ul>
 									<li>
 										<a href="#install" style="padding-left: 0px;">Installation Charge</a>
@@ -93,7 +93,7 @@
 										<a href="#final-review" style="padding-left: 0px;">Final Order Review</a>
 									</li>
 								</ul>
-								<strong class="sub">Voicemails</strong>
+								<a href="#voicemails"><strong class="sub">Voicemails</strong></a>
 								<ul>
 									<li>
 										<a href="#follow-up-message" style="padding-left: 0px;">Follow Up Message</a>
@@ -108,7 +108,7 @@
 										<a href="#final-order-review-message" style="padding-left: 0px;">Final Order Review Message</a>
 									</li>
 								</ul>
-                                <strong class="sub">Follow Up Messages</strong>
+                                <a href="#followupmessages"><strong class="sub">Follow Up Messages</strong></a>
 								<ul>
 									<li>
 										<a href="#missed-call-fu" style="padding-left: 0px;">Missed Call Follow Up</a>
@@ -117,7 +117,7 @@
 										<a href="#web-lead-fu" style="padding-left: 0px;">Web Lead Follow Up</a>
 									</li>
 								</ul>
-                                   <strong class="sub">Follow Up Procedures</strong>
+                                <a href="#followupprocedures"><strong class="sub">Follow Up Procedures</strong></a>
 								<ul>
 									<li>
 										<a href="#item1-fup" style="padding-left: 0px;">NEEDS ATTN</a>
@@ -126,7 +126,7 @@
 										<a href="#item2-fup" style="padding-left: 0px;">NEEDS ATTN</a>
 									</li>
 								</ul>
-								<strong class="sub">Sales Issues</strong>
+								<a href="#salesissues"><strong class="sub">Sales Issues</strong></a>
 								<ul>
 									<li>
 										<a href="#service-issue" id="link-service-issue">Serviceability Issues</a>
@@ -138,7 +138,7 @@
 										<a href="#past-due">Past Due Balance</a>
 									</li>
 								</ul>
-								<strong class="sub">Non-Sales</strong>
+								<a href="#nonsales"><strong class="sub">Non-Sales</strong></a>
 								<ul>
 									<li>
 										<a href="#billing-support">Billing Support</a>
@@ -179,7 +179,7 @@
 									<li class="icon-check2">
 										ACTION: 
 										<ul>
-											<li><a href="#sales-new">Sales/New Service</a></li>
+											<li><a href="#salesnewservice">Sales / New Service</a></li>
                                             <li><a href="#tech-support">Technical Support</a></li>
 											<li><a href="#billing-support">Billing Support</a></li>
                                             <li><a href="#office-information">Office Locations</a></li>
@@ -225,12 +225,12 @@
 							</div>
                         <div class="panel">
 						<div class="panel-wrapper">
-							<div class="one-full">
-								<a name="sales-new"></a>
+							<div class="one-full">			
                                 <p>
 									&nbsp;
 								</p>
-								<h3>Sales/New Service</h3><hr>
+                                <a class="section" id="salesnewservice">name</a>
+								<h3>Sales / New Service</h3><hr>
                                 <a name="collect-info"></a>
 								<h4>Collect Information &amp; Serviceability</h4>
 								<ul class="icon-check">
@@ -297,7 +297,8 @@
 								<p>
 									&nbsp;
 								</p>
-								<h3 id="closeandconvert">Close and Convert</h3><hr>
+                                <a class="section" id="closeandconvert">name</a>
+								<h3>Close and Convert</h3><hr>
 								<a name="install"></a>
 								<h4>Installation Charge</h4>
 								<ul class="icon-check">
@@ -457,7 +458,8 @@
 								</ul>
                                 <p>
 									&nbsp;
-								</p>
+								</p>                                                                           
+                                <a class="section" id="voicemails">name</a>
 								<h3>Voicemails</h3><hr>
 								<a name="follow-up-message"></a>
 								<h4>Follow Up Message</h4>
@@ -490,6 +492,7 @@
 								<p>
 									&nbsp;
 								</p>
+                                <a class="section" id="followupmessages">name</a>
 								<h3>Follow Up Messages</h3>
                                 <hr>
 								<a name="missed-call-fu"></a>
@@ -520,7 +523,8 @@
 								</ul>
                                 <p>
 									&nbsp;
-								</p>
+								</p>                                            
+                                <a class="section" id="followupprocedures">name</a>
                                 <h3>Follow Up Procedures</h3>
                                 <hr>                                            
 								    <a name="item1-fup"></a>
@@ -539,7 +543,8 @@
 								</ul>
                                  <p>
 									&nbsp;
-								</p>
+								</p>                                            
+                                <a class="section" id="salesissues">name</a>
 								<h3>Sales Issues</h3>
                                 <hr>
 								<a name="service-issue"></a>
@@ -588,7 +593,7 @@
 										I appreciate your patience; it seems that this address currently has active service and the previous tenant did not cancel their services. You will need to get ahold of them to do so. Is it possible for you to contact your landlord or previous tenant to have them disconnect service?
 									</li>
 									<li class="icon-check2">
-										ACTION: Set task to call customer back to complete order.
+										ACTION: <span class="important">Set task to call customer back to complete order.</span>
 									</li>									
 								</ul><br>
 								<a name="past-due"></a>
@@ -605,12 +610,13 @@
 										ACTION: Make notes in Salerity regarding the past due balance
 									</li>
 									<li class="icon-check2">
-										ACTION: Set task to call customer back
+                                        ACTION: <span class="important">Set task to call customer back</span>
 									</li>
 								</ul>
 								<p>
 									&nbsp;
-								</p>
+								</p>                                            
+                                <a class="section" id="nonsales">name</a>
 								<h3>Non-Sales</h3>
                                 <hr>
 								<a name="billing-support"></a>
@@ -640,7 +646,7 @@
 										I appreciate your patience; let me confirm the closest location to your area. What is your zip code?
 									</li>
 									<li class="icon-check2">
-										ACTION: Find the nearest Office Location by Provider by using the "Helpful Links" dropdown menu on the left side of this window. 
+										ACTION: Find the nearest Office Location by Provider by using the "Helpful Links" Button on the left side of this window. 
 									</li>
 								</ul>
 							</div>
