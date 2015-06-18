@@ -316,3 +316,9 @@ tr:nth-child(odd){
     float: left;
     margin-top: 2px;
 }
+.popover-content {
+    height: auto;
+    width: auto;
+    overflow-x:scroll;
+    overflow-y: scroll;
+}
