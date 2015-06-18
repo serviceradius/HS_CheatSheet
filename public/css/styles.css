@@ -316,9 +316,131 @@ tr:nth-child(odd){
     float: left;
     margin-top: 2px;
 }
-.popover-content {
-    height: auto;
-    width: auto;
-    overflow-x:scroll;
-    overflow-y: scroll;
+table {
+    border: 1px solid #ddd;
+	border-collapse:collapse;
+	border-spacing: 0;
+	margin: 15px auto;
+}
+
+/* http://sonspring.com/journal/clearing-floats */
+
+.clear {
+	clear: both;
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+
+/* http://perishablepress.com/press/2008/02/05/lessons-learned-concerning-the-clearfix-css-hack */
+
+.clearfix:after {
+	clear: both;
+	content: ' ';
+	display: block;
+	font-size: 0;
+	line-height: 0;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+
+.clearfix {
+	display: inline-block;
+}
+
+* html .clearfix {
+	height: 1%;
+}
+
+.clearfix {
+	display: block;
+}
+
+.qTipPhrase{
+	color:#0000FF;
+	text-decoration:underline;
+}
+.tooltiptext{
+    display: none;
+    min-height:100px;
+    max-height:400px;
+    overflow-y: auto;
+    font-size:14px;
+}
+.tooltiptext table tr:hover:nth-child(even){
+	background-color:#ddd;
+}
+.tooltiptext table tr:hover:nth-child(odd){
+	background-color:#eee;
+}
+
+.channelHeading{
+	font-size:1.2em;
+	color:black;
+	font-weight: bold;
+}
+
+.training-description{
+	height:50px;	
+}
+
+
+#bottom_column {
+background: #0533AA !important;
+}
+
+th, tr, td {
+	border: none;
+	padding: 0.5em;
+}
+
+th {
+	border: 0;
+}
+
+th a {
+	font-weight: bold;
+}
+
+tr {
+	border: 0;
+}
+
+td {
+	border: 0;
+}
+
+th:nth-child(even), th:nth-child(even) a {
+	background-color: #999;
+	color: #fff;
+	text-shadow: 1px 1px 1px #555;
+}
+
+th:nth-child(odd), th:nth-child(odd) a {
+	background-color: #777;
+	color: #fff;
+	text-shadow: 1px 1px 1px #555;
+}
+
+tr:nth-child(even) {
+	background-color: #ddd;
+	color: #555;
+	text-shadow: 1px 1px 1px #eee;
+}
+
+tr:nth-child(odd) {
+	background-color: #eee;
+	color: #777;
+	text-shadow: 1px 1px 1px #fff;
+}
+
+tr:nth-child(even):hover {
+	background-color: #fdfbbd;
+}
+
+tr:nth-child(odd):hover {
+	background-color: #fdfbbd;
 }
