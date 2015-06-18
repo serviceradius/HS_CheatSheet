@@ -44,104 +44,9 @@ $('#twc_30').popover({
         }, 100);
     });
     
-
-
-
-//TWC Start Over
- $('#twc_startover').popover({
-        html: true,
-        trigger: 'manual',
-        placement: 'auto',
-        content: function () {
-            return $('#twc_so_content').html();
-        }
-    }).on("mouseenter", function () {
-        var _this = this;
-        $(this).popover("show");
-        $(this).siblings(".popover").on("mouseleave", function () {
-            $(_this).popover('hide');
-        });
-    }).on("mouseleave", function () {
-        var _this = this;
-        setTimeout(function () {
-            if (!$(".popover:hover").length) {
-                $(_this).popover("hide")
-            }
-        }, 100);
-    });
-    
-
-//TWC Start Over
- $('#twc_lookback').popover({
-        html: true,
-        trigger: 'manual',
-        placement: 'auto',
-        content: function () {
-            return $('#twc_lb_content').html();
-        }
-    }).on("mouseenter", function () {
-        var _this = this;
-        $(this).popover("show");
-        $(this).siblings(".popover").on("mouseleave", function () {
-            $(_this).popover('hide');
-        });
-    }).on("mouseleave", function () {
-        var _this = this;
-        setTimeout(function () {
-            if (!$(".popover:hover").length) {
-                $(_this).popover("hide")
-            }
-        }, 100);
-    });
-
-
-//TWC HD
- $('#twc_hd').popover({
-        html: true,
-        trigger: 'manual',
-        placement: 'auto',
-        content: function () {
-            return $('#twc_hd_content').html();
-        }
-    }).on("mouseenter", function () {
-        var _this = this;
-        $(this).popover("show");
-        $(this).siblings(".popover").on("mouseleave", function () {
-            $(_this).popover('hide');
-        });
-    }).on("mouseleave", function () {
-        var _this = this;
-        setTimeout(function () {
-            if (!$(".popover:hover").length) {
-                $(_this).popover("hide")
-            }
-        }, 100);
-    });
-
-
-
-//TWC Free On Demand
- $('#twc_od').popover({
-        html: true,
-        trigger: 'manual',
-        placement: 'auto',
-        content: function () {
-            return $('#twc_od_content').html();
-        }
-    }).on("mouseenter", function () {
-        var _this = this;
-        $(this).popover("show");
-        $(this).siblings(".popover").on("mouseleave", function () {
-            $(_this).popover('hide');
-        });
-    }).on("mouseleave", function () {
-        var _this = this;
-        setTimeout(function () {
-            if (!$(".popover:hover").length) {
-                $(_this).popover("hide")
-            }
-        }, 100);
-    });
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
 
 
 //TWC Variety Tier
@@ -192,34 +97,10 @@ $('#twc_30').popover({
     });
 
 
-
-//TWC DVR
- $('#twc_dvr').popover({
-        html: true,
-        trigger: 'manual',
-        placement: 'auto',
-        content: function () {
-            return $('#twc_dvr_content').html();
-        }
-    }).on("mouseenter", function () {
-        var _this = this;
-        $(this).popover("show");
-        $(this).siblings(".popover").on("mouseleave", function () {
-            $(_this).popover('hide');
-        });
-    }).on("mouseleave", function () {
-        var _this = this;
-        setTimeout(function () {
-            if (!$(".popover:hover").length) {
-                $(_this).popover("hide")
-            }
-        }, 100);
-    });
-
 //TWC Espanol Tier
  $('#twc_esp').popover({
         html: true,
-        trigger: 'manual',
+        trigger: 'click',
         placement: 'auto',
         content: function () {
             return $('#twc_esp_content').html();
@@ -357,100 +238,4 @@ $('#twc_30').popover({
             }
         }, 100);
     });
-
-
-//Charter On Demand
- $('#ch_od').popover({
-        html: true,
-        trigger: 'manual',
-        placement: 'auto',
-        content: function () {
-            return $('#ch_od_content').html();
-        }
-    }).on("mouseenter", function () {
-        var _this = this;
-        $(this).popover("show");
-        $(this).siblings(".popover").on("mouseleave", function () {
-            $(_this).popover('hide');
-        });
-    }).on("mouseleave", function () {
-        var _this = this;
-        setTimeout(function () {
-            if (!$(".popover:hover").length) {
-                $(_this).popover("hide")
-            }
-        }, 100);
-    });
-
-//Charter Interactive Guide
- $('#ch_ig').popover({
-        html: true,
-        trigger: 'manual',
-        placement: 'auto',
-        content: function () {
-            return $('#ch_ig_content').html();
-        }
-    }).on("mouseenter", function () {
-        var _this = this;
-        $(this).popover("show");
-        $(this).siblings(".popover").on("mouseleave", function () {
-            $(_this).popover('hide');
-        });
-    }).on("mouseleave", function () {
-        var _this = this;
-        setTimeout(function () {
-            if (!$(".popover:hover").length) {
-                $(_this).popover("hide")
-            }
-        }, 100);
-    });
-
-//Charter Interactive Guide
- $('#ch_dvr').popover({
-        html: true,
-        trigger: 'manual',
-        placement: 'auto',
-        content: function () {
-            return $('#ch_dvr_content').html();
-        }
-    }).on("mouseenter", function () {
-        var _this = this;
-        $(this).popover("show");
-        $(this).siblings(".popover").on("mouseleave", function () {
-            $(_this).popover('hide');
-        });
-    }).on("mouseleave", function () {
-        var _this = this;
-        setTimeout(function () {
-            if (!$(".popover:hover").length) {
-                $(_this).popover("hide")
-            }
-        }, 100);
-    });
-
-
-//Charter WiFi
- $('#ch_wifi').popover({
-        html: true,
-        trigger: 'manual',
-        placement: 'auto',
-        content: function () {
-            return $('#ch_wifi_content').html();
-        }
-    }).on("mouseenter", function () {
-        var _this = this;
-        $(this).popover("show");
-        $(this).siblings(".popover").on("mouseleave", function () {
-            $(_this).popover('hide');
-        });
-    }).on("mouseleave", function () {
-        var _this = this;
-        setTimeout(function () {
-            if (!$(".popover:hover").length) {
-                $(_this).popover("hide")
-            }
-        }, 100);
-    });
-
-
 

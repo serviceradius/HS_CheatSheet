@@ -394,7 +394,7 @@ background: #0533AA !important;
 
 th, tr, td {
 	border: none;
-	padding: 0.5em;
+	padding: 5px;
 }
 
 th {
@@ -443,4 +443,11 @@ tr:nth-child(even):hover {
 
 tr:nth-child(odd):hover {
 	background-color: #fdfbbd;
+}
+.popover{
+    width:auto;
+    height:300px;
+    font-size: 11px;
+    overflow-x:scroll;
+    
 }
